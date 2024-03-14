@@ -199,8 +199,7 @@ ol {
 /* Правая секция с заголовком и карточками */
 
 .content__details {
-  width: 407px;        /* Увеличил на 8рх из за полосы прокрутки */
-  min-height: 534px;   /* Если нет минимального, то при ошибке поиска уплывает вниз заголовок */
+  width: 407px;    /* Увеличил на 8рх из за полосы прокрутки */
 }
 
 .title {
@@ -218,7 +217,7 @@ ol {
 
 .content__list {
   position: relative;
-  max-height: 298px;
+  height: 298px;
   overflow: auto;
   scrollbar-width: thin;  
 }
